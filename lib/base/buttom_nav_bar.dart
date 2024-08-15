@@ -23,7 +23,7 @@ class _BottomNavBar extends State<BottomNavBar> {
           unselectedItemColor: const Color(0xFF526400),
           showSelectedLabels: false,
           items: const [
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
+            BottomNavigationBarItem(icon: Icon(FluentSystemIcons.ic_fluent_home_add_regular), label: "Home"),
             BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
             BottomNavigationBarItem(icon: Icon(Icons.airplane_ticket), label: "Tickets"),
             BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
